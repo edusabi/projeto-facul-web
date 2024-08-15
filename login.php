@@ -10,16 +10,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto faculdade</title>
-    <link rel="stylesheet" href="./css/styleGlobal.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="css/styleGlobal.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
+
 
 
 <div class="formLoginContainer">
     
     <form action="logar.php" method="POST" class="formLogin">
-        <h1>loginnn</h1>
+        <h1>Login</h1>
         
         <label>
             <span>E-mail</span>
@@ -35,3 +36,4 @@
     </form>
 
 </div>
+

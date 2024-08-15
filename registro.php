@@ -14,4 +14,33 @@
     <link rel="stylesheet" href="./css/navbar.css">
 </head>
 
-<h1>registroo</h1>
+
+<div class="formRegistroContainer">
+    
+    <form action="logar.php" method="POST" class="formRegistro">
+        <h1>Registro</h1>
+        
+        <label>
+            <span>Nome</span>
+            <input type='text' name="nome">
+        </label>
+        
+        <label>
+            <span>E-mail</span>
+            <input type="email" name="email">
+        </label>
+        
+        <label>
+            <span>Senha</span>
+            <input type="password" name="senha">
+        </label>
+
+        <label>
+            <span>Confirmar senha</span>
+            <input type="password" name="senha">
+        </label>
+        
+        <button type="submit">Enivar cadastro</button>
+    </form>
+
+</div>

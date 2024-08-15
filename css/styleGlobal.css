@@ -2,8 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
-    background-color: red;
-    color: #fff;
+    list-style: none;
+}
+
+body{
+    color: white;
+    background-color: black;
 }

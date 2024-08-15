@@ -1,0 +1,58 @@
+nav{
+    background-color: black;
+    height: 12vh;
+    color: #00ff26;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    box-shadow: 0 0 10px rgb(0, 255, 0);
+}
+
+nav h1{
+    letter-spacing: 2px;
+}
+
+.itens ul{
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.itens ul a{
+    margin: 0 1rem;
+    color: #00ff26;
+}
+
+.itens ul a li{
+    letter-spacing: 2px;
+}
+
+/* /////RAINS */
+.rains-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes rainAnim{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(10.4vh);
+    }
+}
+
+.rains-container .rain{
+    transform: translateY(-100%);
+    width: 1px;
+    height: 10px;
+    background-color: #00ff26;
+    animation-name: rainAnim;
+    animation-duration: 2s;
+    animation-delay: var(--rain-delay);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

@@ -1,15 +1,27 @@
+<?php
+
+    require "./cadastro/conexaoDB.php";
+?>
+
 <!DOCTYPE html>
 <html lang="Pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Projeto facul</title>
+    <title>Projeto faculdade</title>
+    <link rel="stylesheet" href="css/styleGlobal.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
-</html>
 
-<?php include "./partials/navbar.php"; ?>
+<header>
+    <?php include "navbar.php"; ?>
+</header>
+
+
 <body>
     <h1>Olá</h1>
 </body>
-<?php include "./partials/footer.php"?>
+
+<!-- <footer>
+    <?php include "footer.php"?>
+</footer> -->

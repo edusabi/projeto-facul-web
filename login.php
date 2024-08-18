@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 
-
+    <img src="./img/gifNeon.gif" alt="" class="gifNeon">
 
 <div class="formLoginContainer">
     
@@ -24,7 +24,7 @@
         
         <label>
             <span>E-mail</span>
-            <input type="email" name="email">
+            <input type="email" name="email" autocomplete="none">
         </label>
         
         <label>

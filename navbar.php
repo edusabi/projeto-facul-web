@@ -15,7 +15,7 @@
  </div>
 
 <nav>
-    <h1>LOGO</h1>
+    <span class="logo">LOGO</span>
     <div class="itens">
         <ul>
             <li><a href="/projeto-facul-web">Home</a></li>

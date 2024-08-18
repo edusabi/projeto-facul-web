@@ -12,12 +12,14 @@
     <title>Projeto faculdade</title>
     <link rel="stylesheet" href="./css/styleGlobal.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/registro.css">
 </head>
 
+<img src="./img/gifNeon.gif" alt="" class="gifNeon2">
 
 <div class="formRegistroContainer">
     
-    <form action="logar.php" method="POST" class="formRegistro">
+    <form action="#" method="POST" class="formRegistro">
         <h1>Registro</h1>
         
         <label>
@@ -27,7 +29,7 @@
         
         <label>
             <span>E-mail</span>
-            <input type="email" name="email">
+            <input type="email" name="email" autocomplete="none">
         </label>
         
         <label>

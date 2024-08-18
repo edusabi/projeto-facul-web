@@ -11,7 +11,7 @@
     border: 2px solid #00ff26;
     box-shadow: 0 0 20px #00ff26;
     border-radius: 5px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(8px);
     gap: 1rem;
     display: flex;
     flex-direction: column;

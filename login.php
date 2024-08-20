@@ -29,7 +29,7 @@
         
         <label>
             <span>Senha</span>
-            <input type="password" name="senha">
+            <input type="password" name="senha" autocomplete="none">
         </label>
         
         <button type="submit">Entrar</button>

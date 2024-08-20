@@ -19,12 +19,12 @@
 
 <div class="formRegistroContainer">
     
-    <form action="#" method="POST" class="formRegistro">
+    <form action="registrar.php" method="POST" class="formRegistro">
         <h1>Registro</h1>
         
         <label>
             <span>Nome</span>
-            <input type='text' name="nome">
+            <input type='text' name="nome" autocomplete="none">
         </label>
         
         <label>
@@ -34,12 +34,12 @@
         
         <label>
             <span>Senha</span>
-            <input type="password" name="senha">
+            <input type="password" name="senha" autocomplete="none">
         </label>
 
         <label>
             <span>Confirmar senha</span>
-            <input type="password" name="senha">
+            <input type="password" name="ConfirmarSenha" autocomplete="none">
         </label>
         
         <button type="submit">Enivar cadastro</button>

@@ -1,11 +1,4 @@
 
-
-<?php
-
-    require "./cadastro/conexaoDB.php";
-
-    if( isset($_SESSION['idUser']) && !empty($_SESSION["idUser"]) ):?>
-
 <!DOCTYPE html>
 <html lang="Pt-br">
 <head>
@@ -39,7 +32,3 @@
 </div>
   
   <script src="./js/scriptIA.js"></script>
-
-<?php
-    else: header("Location: login.php"); endif;
-?>

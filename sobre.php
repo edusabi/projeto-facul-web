@@ -1,8 +1,3 @@
-<?php
-
-    require "./cadastro/conexaoDB.php";
-?>
-
 <!DOCTYPE html>
 <html lang="Pt-br">
 <head>

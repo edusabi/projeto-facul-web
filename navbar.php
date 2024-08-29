@@ -34,16 +34,17 @@ $logado = isset($_SESSION['id']);
     <span class="logo">LOGO</span>
     <div class="itens">
         <ul>
-            <li><a href="/projeto-facul-web">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             
             <?php if ($logado): ?>
                 <li><a href="ia.php">IA</a></li>
-                <li><a href="/projeto-facul-web/sobre.php">Sobre</a></li>
+                <li><a href="linguagens.php">Linguagens</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
                 <li><a href="logout.php">Sair</a></li>
                 <?php else: ?>
                     <li><a href="login.php">Login</a></li>
                     <li><a href="registro.php">Registrar</a></li>
-                    <li><a href="/projeto-facul-web/sobre.php">Sobre</a></li>
+                    <li><a href="sobre.php">Sobre</a></li>
                 <?php endif; ?>
         </ul>
     </div>

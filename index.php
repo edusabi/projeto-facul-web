@@ -9,15 +9,22 @@ session_start();
     <title>Projeto faculdade</title>
     <link rel="stylesheet" href="css/styleGlobal.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
     <?php include "navbar.php"; ?>
 
 
 <body>
+    
     <h1>Olá</h1>
-</body>
 
-<!-- <footer>
-    <?php include "footer.php"?>
-</footer> -->
+    <div>
+
+        <div>
+            <button><a href="ia.php">Inteligência artificial</a></button>
+        </div>
+
+    </div>
+
+</body>

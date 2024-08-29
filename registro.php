@@ -12,6 +12,7 @@
 <body>
 
 <?php include("navbar.php"); ?>
+<img src="./img/gifNeon.gif" alt="" class="gifNeon">
 
 <div class="formRegistroContainer">
     <form class="formRegistro" action="registrar.php" method="POST">

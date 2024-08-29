@@ -13,6 +13,8 @@
 
 <?php include('navbar.php'); ?>
 
+<img src="./img/gifNeon.gif" alt="" class="gifNeon">
+
 <div class="formLoginContainer">
     <form action="logar.php" method="POST" class="formLogin">
         <h1>Login</h1>

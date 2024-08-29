@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="Pt-br">
 <head>
@@ -8,9 +11,7 @@
     <link rel="stylesheet" href="css/navbar.css">
 </head>
 
-<header>
     <?php include "navbar.php"; ?>
-</header>
 
 
 <body>

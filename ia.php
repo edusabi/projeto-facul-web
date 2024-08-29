@@ -1,3 +1,7 @@
+<?php 
+include("protecao.php");
+
+?>
 
 <!DOCTYPE html>
 <html lang="Pt-br">
@@ -31,4 +35,4 @@
 
 </div>
   
-  <script src="./js/scriptIA.js"></script>
+<script src="./js/scriptIA.js"></script>

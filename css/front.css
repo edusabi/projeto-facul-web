@@ -1,0 +1,43 @@
+.h1Front{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.divGeralFront{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.divGeralFront h1{
+    margin: 3rem 0;
+}
+
+.imgLinguagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.imgLinguagens img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.imgFrameworks{
+    margin-top: -5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    display: flex;
+    padding: 8rem 0;
+}
+
+.imgFrameworks img{
+    width: 250px;
+    cursor: pointer;
+}
+
+.h1Frameworks{
+    margin-top: 7rem !important;
+}

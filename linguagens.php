@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -19,13 +20,26 @@ include("navbar.php")
 
     <div class="container_linguagens">
 
-        <div>Front End</div>
+        <div>
+            <img src="./img/front.jpg" alt="">
+            <a href="front.php"><button>Front-End</button></a>
+        </div>
         
-        <div>Back End</div>
-
-        <div>Full Stack</div>
-
-        <div>Mobile</div>
+        <div>
+            <img src="./img/back.jpg" alt="">
+            <a href="back.php"><button>Back-End</button></a>
+        </div>
+        
+        <div>
+            <img src="./img/full stack.jpg" alt="">
+            <a href="full.php"><button>Full-Stack</button></a>
+        </div>
+        
+        <div>
+            <img src="./img/mobile.png" alt="">
+            <a href="mobile.php"><button>Mobile</button></a>
+        </div>
+        
 
     </div>
 

@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.container_linguagens{
+    justify-content: center;
+    display: flex;
+    gap: 6rem;
+    margin-top: 20vh;
+}
+
+.container_linguagens div img{
+    box-shadow: 0 0 15px #00ff26;
+    width: 200px;
+    border-radius: 2px;
+}
+
+.container_linguagens div{
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.container_linguagens div button{
+    background-color: #00ff26;
+    width: 130px;
+    padding: 2px 0;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+}

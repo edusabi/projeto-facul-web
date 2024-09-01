@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="Pt-br">
 <head>
@@ -12,23 +9,6 @@ session_start();
     <link rel="stylesheet" href="css/index.css">
 </head>
 
-    <?php include "navbar.php"; ?>
-
-
-<body>
-    
-    <h1>Olá</h1>
-
-    <div>
-
-        <div>
-            <button><a href="ia.php">Inteligência artificial</a></button>
-        </div>
-
-        <div>
-            <button><a href="linguagens.php">Linguagens</a></button>
-        </div>
-
-    </div>
-
-</body>
+<?php 
+    include("navbar.php")
+?>
